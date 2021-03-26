@@ -6,6 +6,8 @@ const FriendList = ({ friendCount, username, friends }) => {
         return <p className="bg-dark text-light p-3">{username}, make some friends!</p>;
     }
 
+    console.log(username);
+
     return (
         <div>
             <h5>
