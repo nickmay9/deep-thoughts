@@ -1,8 +1,8 @@
 {
-  "name": "client",
+  "name": "aws-client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3001",
+  "proxy": "http://localhost:3001/",
   "dependencies": {
     "@apollo/react-hooks": "^4.0.0",
     "@testing-library/jest-dom": "^5.11.9",
@@ -25,10 +25,7 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
